@@ -73,4 +73,4 @@ Here I am attaching the final working website's screenshot for the reference.
 
 
 <h1>Final Project Statement:</h1>
-Then finally everyone can afford this service which is less purchasing media and which has low latency and this service can use by multiple users and by using our events you have many benifits of our services and we will provide services is wedding,babyshower,birthday, mehandi,decorattion and jewellary.
+Then finally everyone can afford this service which is less purchasing media and which has low latency and this service can use by multiple users and by using our events you have many benifits of our services and we will provide services is for wedding,babyshower,birthday, mehandi,decorattion and jewellary. At this Events, we understand the significance of every occasion and strive to turn your dreams into reality. With a team of passionate event planners, we ensure that your events are not just special but extraordinary. Whether it's a joyous marriage celebration, a heartwarming baby shower, or a milestone birthday, we are here to make every moment count. Let us be a part of your journey, and together, we'll craft memories that last a lifetime.

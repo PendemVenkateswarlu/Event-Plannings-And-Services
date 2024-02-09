@@ -20,12 +20,16 @@ let's celebrate with us.
 
 <h1>Problem Statement:</h1>
 In the realm of event planning and management, organizations frequently encounter significant challenges that impede the seamless execution of events. These challenges encompass a spectrum of issues, including but not limited to inadequate coordination among multiple stakeholders, inefficient use of technology, and a lack of standardized processes. These obstacles often result in budget overruns, logistical hiccups, and diminished overall attendee satisfaction.
+
 <h1>Project Description:</h1>
 The Event Planning and Management System project aims to develop a comprehensive and integrated solution to streamline the process of organizing and managing events. This system will address common challenges faced by event organizers, providing a centralized platform for efficient planning, communication, and execution of various events. In our events and management planning we will help with our services like matching sets for couple and that will be very big task for a wedding in our service we will arrange the sets and matching dresses for couples and that service which will be available for the less cost which are affordable for the low budgets weddings.so that was the main agenda. 
 The next service was baby shower shooting dresses that will be available in rents and very low budget and also we can arrange the matching jewellery to it and those also available in rent per a day as a count.  we also provide birthday parties decoration and dresses for kids, men and women and very reasonable rates. And we also provide decorations to any event any place. The main agenda of our organisation was every people can afford a special event in their life for affordable charges without any regrets in future. It was our responsibility to make customer happy and our service can make you full fill your dream with your destination our planning. And we will also provide multiple vouchers at different deals
+
 <h1>Core Azure Services:</h1>
-<b>Azure Blob Storage:-</b> Azure Blob Storage is Microsoft's scalable object storage solution in the Azure cloud. It enables secure and cost-effective storage of unstructured data, such as documents and images. Offering seamless integration with applications, it supports data of any size and optimizes accessibility through a globally distributed network. 
+<b>Azure Blob Storage:-</b> Azure Blob Storage is Microsoft's scalable object storage solution in the Azure cloud. It enables secure and cost-effective storage of unstructured data, such as documents and images. Offering seamless integration with applications, it supports data of any size and optimizes accessibility through a globally distributed network.               
+
 <b>Azure Storage Account:-</b> Azure Storage Account is a foundational component in Microsoft Azure, providing secure and scalable cloud storage. It supports various storage services like Blob, File, Queue, and Table, accommodating diverse data types. With features such as redundancy options and access controls, it ensures reliable and efficient data management.
+ 
  <b>Azure Backup Service:-</b> Azure Backup Service by Microsoft safeguards critical data in the Azure cloud. It offers automated and scalable backup solutions for virtual machines, applications, and files. With features like long-term retention and geo-redundancy, it ensures data resilience and facilitates efficient disaster recovery, enhancing overall data protection strategies.
 
 <h1>Azure AI Service</h1>

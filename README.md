@@ -4,7 +4,7 @@ let's celebrate with us.
 <h1>Project Details:</h1>
 1.	Project Demo URL: https://planning123.z13.web.core.windows.net/ <br>
 2.	Demo Video URL: <br>
-3.	GitHub Repository URL :<br>
+3.	GitHub Repository URL : https://github.com/PendemVenkateswarlu/Event-Plannings-And-Services/tree/main <br>
 4.	Industry : life style<br>
 
 <h1>Roles & Responsibilities:</h1>

@@ -38,4 +38,4 @@ Here I am attaching the final working website's screenshot for the reference.
 
 
 <h1>Final Project Statement:</h1>
-Then finally everyone can afford this service which is less purchasing media and which has low latency and this service can use  by multiple users 
+Then finally everyone can afford this service which is less purchasing media and which has low latency and this service can use by multiple users and by using our events you have many benifits of our services and we per provide services is wedding ,babyshower,birthday, mehandi, decorattion and jewellary.

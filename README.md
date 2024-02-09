@@ -50,6 +50,9 @@ Most importantly, birthdays call for celebration. It is one day where we get to 
 
 ![image](https://github.com/PendemVenkateswarlu/Event-Plannings-And-Services/assets/113766822/2d43a891-e972-4fd3-b05e-24acf59927a2)
 
+![image](https://github.com/PendemVenkateswarlu/Event-Plannings-And-Services/assets/113766822/ee9a79c7-fc84-4ceb-9893-1adcecfc2631)
+
+
 
 
 

@@ -26,7 +26,8 @@ The Event Planning and Management System project aims to develop a comprehensive
 The next service was baby shower shooting dresses that will be available in rents and very low budget and also we can arrange the matching jewellery to it and those also available in rent per a day as a count.  we also provide birthday parties decoration and dresses for kids, men and women and very reasonable rates. And we also provide decorations to any event any place. The main agenda of our organisation was every people can afford a special event in their life for affordable charges without any regrets in future. It was our responsibility to make customer happy and our service can make you full fill your dream with your destination our planning. And we will also provide multiple vouchers at different deals
 
 <h1>Core Azure Services:</h1>
-<b>Azure Blob Storage:-</b> Azure Blob Storage is Microsoft's scalable object storage solution in the Azure cloud. It enables secure and cost-effective storage of unstructured data, such as documents and images. Offering seamless integration with applications, it supports data of any size and optimizes accessibility through a globally distributed network.               
+<b>Azure Blob Storage:-</b> Azure Blob Storage is Microsoft's scalable object storage solution in the Azure cloud. It enables secure and cost-effective storage of unstructured data, such as documents and images. Offering seamless integration with applications, it supports data of any size and optimizes accessibility through a globally distributed network. 
+
 
 <b>Azure Storage Account:-</b> Azure Storage Account is a foundational component in Microsoft Azure, providing secure and scalable cloud storage. It supports various storage services like Blob, File, Queue, and Table, accommodating diverse data types. With features such as redundancy options and access controls, it ensures reliable and efficient data management.
  

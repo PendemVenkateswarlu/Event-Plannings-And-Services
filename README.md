@@ -2,7 +2,7 @@
 <h1>Dream destination:</h1>
 let's celebrate with us.
 <h1>Project Details:</h1>
-1.	Project Demo URL:<br>
+1.	Project Demo URL: https://planning123.z13.web.core.windows.net/ <br>
 2.	Demo Video URL: <br>
 3.	GitHub Repository URL :<br>
 4.	Industry : life style<br>

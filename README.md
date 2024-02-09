@@ -43,9 +43,21 @@ Most importantly, birthdays call for celebration. It is one day where we get to 
 <h1>Azure AI Service</h1>
 <b>Azure Chatbot :-</b> The Azure AI Language Chatbot is a cutting-edge conversational agent powered by Microsoft's Azure platform. Leveraging advanced natural language processing capabilities, it facilitates dynamic and context-aware interactions. This intelligent chatbot employs machine learning algorithms to comprehend user queries, providing personalized responses and assistance across diverse domains. Seamlessly integrating with Azure services, it ensures scalability and reliability.
 <h1>Screenshots:-</h1>
+
+![image](https://github.com/PendemVenkateswarlu/Event-Plannings-And-Services/assets/113766822/a5b65c49-943e-435d-8bd6-4dc05aaab9da)
+
+
+
+
+
+
+
+
 <h1>Description:-</h1>
 Here I am attaching the final working website's screenshot for the reference.
 <h1>Working Live Project Display:</h1>
+
+
 
 
 

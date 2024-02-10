@@ -43,7 +43,7 @@ Most importantly, birthdays call for celebration. It is one day where we get to 
 
 ![SUSHMA1](https://github.com/PendemVenkateswarlu/Event-Plannings-And-Services/assets/158997573/de595b2a-6578-498c-9a73-07655bee5d9f)
 
-<b><h1>AZURE BLOB STORAGE:</h1></b>
+<b><h>AZURE BLOB STORAGE:</h></b>
 
 Azure Blob Storage is Microsoft's scalable object storage solution in the Azure cloud. It enables secure and cost-effective storage of unstructured data, such as documents and images. Offering seamless integration with applications, it supports data of any size and optimizes accessibility through a globally distributed network.
 
@@ -53,14 +53,14 @@ Azure Blob Storage is Microsoft's scalable object storage solution in the Azure 
 
 
 
-<b><h1>AZURE STORAGE ACCOUNT:</h1></b> 
+<b><h>AZURE STORAGE ACCOUNT:</h></b> 
 
 Azure Storage Account is a foundational component in Microsoft Azure, providing secure and scalable cloud storage. It supports various storage services like Blob, File, Queue, and Table, accommodating diverse data types. With features such as redundancy options and access controls, it ensures reliable and efficient data management.
 
 
 ![image](https://github.com/PendemVenkateswarlu/Event-Plannings-And-Services/assets/158997573/75021d8d-799b-4bff-8ca2-cc7889d9e335)
  
- <b><h1>AZURE BACKUP SERVICE:</h1></b> 
+ <b><h>AZURE BACKUP SERVICE:</h></b> 
 
 
  Azure Backup Service by Microsoft safeguards critical data in the Azure cloud. It offers automated and scalable backup solutions for virtual machines, applications, and files. With features like long-term retention and geo-redundancy, it ensures data resilience and facilitates efficient disaster recovery, enhancing overall data protection strategies.
@@ -68,7 +68,7 @@ Azure Storage Account is a foundational component in Microsoft Azure, providing 
 
   ![image](https://github.com/PendemVenkateswarlu/Event-Plannings-And-Services/assets/158997573/1c662d34-0761-4a4b-bbcc-44d06215cff3)
 
- <b><h1>AZURE ROLE BASED CONTROL ACCESS:</h1></b>
+ <b><h>AZURE ROLE BASED CONTROL ACCESS:</h></b>
 
 
  ![sushma 5](https://github.com/PendemVenkateswarlu/Event-Plannings-And-Services/assets/158997573/a6fe8f3c-b00d-4b58-92a7-70af75a89c06)

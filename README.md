@@ -105,6 +105,9 @@ Azure Storage Account is a foundational component in Microsoft Azure, providing 
 ![SUSHMA 19](https://github.com/PendemVenkateswarlu/Event-Plannings-And-Services/assets/158997573/9e4c1cf6-39a3-47fe-a121-5de8caafc04a)
 
 
+![image](https://github.com/PendemVenkateswarlu/Event-Plannings-And-Services/assets/158997573/f61dca79-f662-41a6-950d-e47747e9cdbc)
+
+
 
 <b><h1>DESCRIPITION:</h1><b>
 
@@ -114,7 +117,7 @@ Here I am attaching the final working website's screenshot for the reference.
 
 
 ![pro2](https://github.com/PendemVenkateswarlu/Event-Plannings-And-Services/assets/158997573/d53051cb-ebe4-450c-8c1b-c69e1217ceea)
-\
+
 
 ![Screenshot 2024-02-10 162042](https://github.com/PendemVenkateswarlu/Event-Plannings-And-Services/assets/158997573/4add4017-5319-40e7-8025-4ff932281422)
 

@@ -8,12 +8,17 @@ let's celebrate with us.
 4.	Industry : life style<br>
 
 <h1>ROLES AND RESPONSIBILITES:</h1>
-1)P. venkateshwarlu (CEO & Founder)               : Manages the web development project.<br>
-2)A.Ganesh (Manager)                              : Responsible for managing the website content.<br>
-3)J.Sushma (Designer & Art Director)              : Responsible for managing the description & Documentaion and designing operations.<br>
-4)T.Sowmya (Technician)                           : Responsible for the operating and code depolyment.<br>
+1)P. venkateshwarlu (CEO & Founder)               
+  Manages the web development project.<br>
+2)A.Ganesh (Manager)                              
+  Responsible for managing the website content.<br>
+3)J.Sushma (Designer & Art Director)              
+  Responsible for managing the description & Documentaion and designing operations.<br>
+4)T.Sowmya (Technician)                           
+  Responsible for the operating and code depolyment.<br>
 
 <h1>AZURE SERVICES USED:</h1>
+
 1.	Azure blob storage<br>
 2.	Storage account<br>
 3.	Azure Backup service<br>
@@ -38,7 +43,7 @@ Most importantly, birthdays call for celebration. It is one day where we get to 
 
 ![SUSHMA1](https://github.com/PendemVenkateswarlu/Event-Plannings-And-Services/assets/158997573/de595b2a-6578-498c-9a73-07655bee5d9f)
 
-<b><h>AZURE BLOB STORAGE:</h></b>
+<b><h1>AZURE BLOB STORAGE:</h1></b>
 
 Azure Blob Storage is Microsoft's scalable object storage solution in the Azure cloud. It enables secure and cost-effective storage of unstructured data, such as documents and images. Offering seamless integration with applications, it supports data of any size and optimizes accessibility through a globally distributed network.
 
@@ -48,14 +53,14 @@ Azure Blob Storage is Microsoft's scalable object storage solution in the Azure 
 
 
 
-<b><h>AZURE STORAGE ACCOUNT:</h></b> 
+<b><h1>AZURE STORAGE ACCOUNT:</h1></b> 
 
 Azure Storage Account is a foundational component in Microsoft Azure, providing secure and scalable cloud storage. It supports various storage services like Blob, File, Queue, and Table, accommodating diverse data types. With features such as redundancy options and access controls, it ensures reliable and efficient data management.
 
 
 ![image](https://github.com/PendemVenkateswarlu/Event-Plannings-And-Services/assets/158997573/75021d8d-799b-4bff-8ca2-cc7889d9e335)
  
- <b><h>AZURE BACKUP SERVICE:</h></b> 
+ <b><h1>AZURE BACKUP SERVICE:</h1></b> 
 
 
  Azure Backup Service by Microsoft safeguards critical data in the Azure cloud. It offers automated and scalable backup solutions for virtual machines, applications, and files. With features like long-term retention and geo-redundancy, it ensures data resilience and facilitates efficient disaster recovery, enhancing overall data protection strategies.
@@ -63,14 +68,14 @@ Azure Storage Account is a foundational component in Microsoft Azure, providing 
 
   ![image](https://github.com/PendemVenkateswarlu/Event-Plannings-And-Services/assets/158997573/1c662d34-0761-4a4b-bbcc-44d06215cff3)
 
- <b><h>AZURE ROLE BASED CONTROL ACCESS:</h></b>
+ <b><h1>AZURE ROLE BASED CONTROL ACCESS:</h1></b>
 
 
  ![sushma 5](https://github.com/PendemVenkateswarlu/Event-Plannings-And-Services/assets/158997573/a6fe8f3c-b00d-4b58-92a7-70af75a89c06)
 
 
 
-<b><h>AZURE AI SERVICES</h></b>:
+<b><h1>AZURE AI SERVICES</h1></b>:
 
  
 ![image](https://github.com/PendemVenkateswarlu/Event-Plannings-And-Services/assets/158997573/b67d5dff-83e7-455b-b281-92bf8cbee9c3)
@@ -87,7 +92,7 @@ Azure Storage Account is a foundational component in Microsoft Azure, providing 
 
 
  
-<b><h>AZURE CHATBOT :<h></b>:
+<b><h1>AZURE CHATBOT :<h1></b>:
 
 The Azure AI Language Chatbot is a cutting-edge conversational agent powered by Microsoft's Azure platform. Leveraging advanced natural language processing capabilities, it facilitates dynamic and context-aware interactions. This intelligent chatbot employs machine learning algorithms to comprehend user queries, providing personalized responses and assistance across diverse domains. Seamlessly integrating with Azure services, it ensures scalability and reliability.
 
@@ -102,7 +107,7 @@ The Azure AI Language Chatbot is a cutting-edge conversational agent powered by 
 
 
 
-<b><h>DESCRIPITION:</h><b>
+<b><h1>DESCRIPITION:</h1><b>
 
 Here I am attaching the final working website's screenshot for the reference.
 
@@ -116,4 +121,5 @@ Here I am attaching the final working website's screenshot for the reference.
 
 
 <h1>Final Project Statement:</h1>
+
 Then finally everyone can afford this service which is less purchasing media and which has low latency and this service can use by multiple users and by using our events you have many benifits of our services and we will provide services is for wedding,babyshower,birthday, mehandi,decorattion and jewellary. At this Events, we understand the significance of every occasion and strive to turn your dreams into reality. With a team of passionate event planners, we ensure that your events are not just special but extraordinary. Whether it's a joyous marriage celebration, a heartwarming baby shower, or a milestone birthday, we are here to make every moment count. Let us be a part of your journey, and together, we'll craft memories that last a lifetime.

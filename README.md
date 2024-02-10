@@ -37,39 +37,82 @@ Most importantly, birthdays call for celebration. It is one day where we get to 
 
 
 ![SUSHMA1](https://github.com/PendemVenkateswarlu/Event-Plannings-And-Services/assets/158997573/de595b2a-6578-498c-9a73-07655bee5d9f)
+
 <b><h>AZURE BLOB STORAGE:</h></b>
+
 Azure Blob Storage is Microsoft's scalable object storage solution in the Azure cloud. It enables secure and cost-effective storage of unstructured data, such as documents and images. Offering seamless integration with applications, it supports data of any size and optimizes accessibility through a globally distributed network.
 
 
+![sushma3](https://github.com/PendemVenkateswarlu/Event-Plannings-And-Services/assets/158997573/dbf53599-2c80-48ed-a925-a538f9b6696e)
+
+
+
+
+<b><h>AZURE STORAGE ACCOUNT:</h></b> 
+
+Azure Storage Account is a foundational component in Microsoft Azure, providing secure and scalable cloud storage. It supports various storage services like Blob, File, Queue, and Table, accommodating diverse data types. With features such as redundancy options and access controls, it ensures reliable and efficient data management.
+
+
 ![image](https://github.com/PendemVenkateswarlu/Event-Plannings-And-Services/assets/158997573/75021d8d-799b-4bff-8ca2-cc7889d9e335)
-
-
-
-<b>Azure Storage Account:-</b> Azure Storage Account is a foundational component in Microsoft Azure, providing secure and scalable cloud storage. It supports various storage services like Blob, File, Queue, and Table, accommodating diverse data types. With features such as redundancy options and access controls, it ensures reliable and efficient data management.
  
- <b>Azure Backup Service:-</b> Azure Backup Service by Microsoft safeguards critical data in the Azure cloud. It offers automated and scalable backup solutions for virtual machines, applications, and files. With features like long-term retention and geo-redundancy, it ensures data resilience and facilitates efficient disaster recovery, enhancing overall data protection strategies.
-
-<h1>Azure AI Service</h1>
-<b>Azure Chatbot :-</b> The Azure AI Language Chatbot is a cutting-edge conversational agent powered by Microsoft's Azure platform. Leveraging advanced natural language processing capabilities, it facilitates dynamic and context-aware interactions. This intelligent chatbot employs machine learning algorithms to comprehend user queries, providing personalized responses and assistance across diverse domains. Seamlessly integrating with Azure services, it ensures scalability and reliability.
+ <b><h>AZURE BACKUP SERVICE:</h></b> 
 
 
+ Azure Backup Service by Microsoft safeguards critical data in the Azure cloud. It offers automated and scalable backup solutions for virtual machines, applications, and files. With features like long-term retention and geo-redundancy, it ensures data resilience and facilitates efficient disaster recovery, enhancing overall data protection strategies.
 
 
+  ![image](https://github.com/PendemVenkateswarlu/Event-Plannings-And-Services/assets/158997573/1c662d34-0761-4a4b-bbcc-44d06215cff3)
+
+ <b><h>AZURE ROLE BASED CONTROL ACCESS:</h></b>
 
 
-
-
-
-
+ ![sushma 5](https://github.com/PendemVenkateswarlu/Event-Plannings-And-Services/assets/158997573/a6fe8f3c-b00d-4b58-92a7-70af75a89c06)
 
 
 
-<h1>Description:-</h1>
+<b><h>AZURE AI SERVICES</h></b>:
+
+ 
+![image](https://github.com/PendemVenkateswarlu/Event-Plannings-And-Services/assets/158997573/b67d5dff-83e7-455b-b281-92bf8cbee9c3)
+
+
+![sushma 6](https://github.com/PendemVenkateswarlu/Event-Plannings-And-Services/assets/158997573/948696d0-3fe4-43fd-a334-6ec9c17a9d47)
+
+
+![sushma7](https://github.com/PendemVenkateswarlu/Event-Plannings-And-Services/assets/158997573/b3260ee1-53bc-4093-8863-c75d90a4863c)
+
+
+![image](https://github.com/PendemVenkateswarlu/Event-Plannings-And-Services/assets/158997573/b2d6235a-5569-47d7-b5fa-3bd06210262f)
+
+
+
+ 
+<b><h>AZURE CHATBOT :<h></b>:
+
+The Azure AI Language Chatbot is a cutting-edge conversational agent powered by Microsoft's Azure platform. Leveraging advanced natural language processing capabilities, it facilitates dynamic and context-aware interactions. This intelligent chatbot employs machine learning algorithms to comprehend user queries, providing personalized responses and assistance across diverse domains. Seamlessly integrating with Azure services, it ensures scalability and reliability.
+
+
+![image](https://github.com/PendemVenkateswarlu/Event-Plannings-And-Services/assets/158997573/034e13ca-22fb-4d5d-a761-a03357172537)
+
+
+![SUSHMA9](https://github.com/PendemVenkateswarlu/Event-Plannings-And-Services/assets/158997573/18dfc754-97ce-40c3-938c-a5ad8bc5f48b)
+
+
+![SUSHMA 19](https://github.com/PendemVenkateswarlu/Event-Plannings-And-Services/assets/158997573/9e4c1cf6-39a3-47fe-a121-5de8caafc04a)
+
+
+
+<b><h>DESCRIPITION:</h><b>
+
 Here I am attaching the final working website's screenshot for the reference.
-<h1>Working Live Project Display:</h1>
+
+![pro1](https://github.com/PendemVenkateswarlu/Event-Plannings-And-Services/assets/158997573/990b5a41-44c8-487a-befc-f1e41dc8d37f)
 
 
+![pro2](https://github.com/PendemVenkateswarlu/Event-Plannings-And-Services/assets/158997573/d53051cb-ebe4-450c-8c1b-c69e1217ceea)
+\
 
+![Screenshot 2024-02-10 162042](https://github.com/PendemVenkateswarlu/Event-Plannings-And-Services/assets/158997573/4add4017-5319-40e7-8025-4ff932281422)
 
 
 <h1>Final Project Statement:</h1>

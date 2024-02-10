@@ -20,10 +20,14 @@ let's celebrate with us.
 
 <h1>AZURE SERVICES USED:</h1>
 
-1.	Azure blob storage<br>
-2.	Storage account<br>
-3.	Azure Backup service<br>
-4.	Azure AI services<br>
+1.Storage account<br>
+2.Azure blob storage<br>
+3.Azure Backup service<br>
+
+<h1>AZURE AI SERVICES USED:</h1>
+
+1.Azure AI Service<br>
+2.Azure Bot Service<br>
 
 <h1>PROBLEM STATEMENT:</h1>
 In the realm of event planning and management, organizations frequently encounter significant challenges that impede the seamless execution of events. These challenges encompass a spectrum of issues, including but not limited to inadequate coordination among multiple stakeholders, inefficient use of technology, and a lack of standardized processes. These obstacles often result in budget overruns, logistical hiccups, and diminished overall attendee satisfaction.
@@ -44,6 +48,13 @@ Most importantly, birthdays call for celebration. It is one day where we get to 
 
 ![SUSHMA1](https://github.com/PendemVenkateswarlu/Event-Plannings-And-Services/assets/158997573/de595b2a-6578-498c-9a73-07655bee5d9f)
 
+<b><h>AZURE STORAGE ACCOUNT:</h></b> 
+
+Azure Storage Account is a foundational component in Microsoft Azure, providing secure and scalable cloud storage. It supports various storage services like Blob, File, Queue, and Table, accommodating diverse data types. With features such as redundancy options and access controls, it ensures reliable and efficient data management.
+
+
+![image](https://github.com/PendemVenkateswarlu/Event-Plannings-And-Services/assets/158997573/75021d8d-799b-4bff-8ca2-cc7889d9e335)
+
 <b><h>AZURE BLOB STORAGE:</h></b>
 
 Azure Blob Storage is Microsoft's scalable object storage solution in the Azure cloud. It enables secure and cost-effective storage of unstructured data, such as documents and images. Offering seamless integration with applications, it supports data of any size and optimizes accessibility through a globally distributed network.
@@ -54,12 +65,6 @@ Azure Blob Storage is Microsoft's scalable object storage solution in the Azure 
 
 
 
-<b><h>AZURE STORAGE ACCOUNT:</h></b> 
-
-Azure Storage Account is a foundational component in Microsoft Azure, providing secure and scalable cloud storage. It supports various storage services like Blob, File, Queue, and Table, accommodating diverse data types. With features such as redundancy options and access controls, it ensures reliable and efficient data management.
-
-
-![image](https://github.com/PendemVenkateswarlu/Event-Plannings-And-Services/assets/158997573/75021d8d-799b-4bff-8ca2-cc7889d9e335)
  
  <b><h>AZURE BACKUP SERVICE:</h></b> 
 
@@ -70,26 +75,31 @@ Azure Storage Account is a foundational component in Microsoft Azure, providing 
   ![image](https://github.com/PendemVenkateswarlu/Event-Plannings-And-Services/assets/158997573/1c662d34-0761-4a4b-bbcc-44d06215cff3)
 
  <b><h>AZURE ROLE BASED CONTROL ACCESS:</h></b>
+ 
+ Manage Identity:
+ 
+Azure Managed Identity is a service in Microsoft Azure that enhances the security and ease of access to cloud resources by providing an identity management solution for applications and services.
 
 
  ![sushma 5](https://github.com/PendemVenkateswarlu/Event-Plannings-And-Services/assets/158997573/a6fe8f3c-b00d-4b58-92a7-70af75a89c06)
 
 
 
-<b><h1>AZURE AI SERVICES</h1></b>:
+<b><h1>AZURE AI SERVICES :</h1></b>
+Azure AI Service
+
+Azure AI services encompass a suite of artificial intelligence (AI) offerings provided by Microsoft Azure, designed to empower developers and businesses to integrate AI capabilities into their applications and workflows.
+
+Azure Bot Service:
+
+Azure Bot Service is a cloud-based service provided by Microsoft Azure that enables the development, deployment, and management of intelligent bots. Bots created using Azure Bot Service can interact with users across various channels, such as web, mobile, Microsoft Teams, Skype and more.
 
  
 ![image](https://github.com/PendemVenkateswarlu/Event-Plannings-And-Services/assets/158997573/b67d5dff-83e7-455b-b281-92bf8cbee9c3)
 
 
-![sushma 6](https://github.com/PendemVenkateswarlu/Event-Plannings-And-Services/assets/158997573/948696d0-3fe4-43fd-a334-6ec9c17a9d47)
-
 
 ![sushma7](https://github.com/PendemVenkateswarlu/Event-Plannings-And-Services/assets/158997573/b3260ee1-53bc-4093-8863-c75d90a4863c)
-
-
-![image](https://github.com/PendemVenkateswarlu/Event-Plannings-And-Services/assets/158997573/b2d6235a-5569-47d7-b5fa-3bd06210262f)
-
 
 
  
@@ -109,8 +119,9 @@ Azure Storage Account is a foundational component in Microsoft Azure, providing 
 ![image](https://github.com/PendemVenkateswarlu/Event-Plannings-And-Services/assets/158997573/f61dca79-f662-41a6-950d-e47747e9cdbc)
 
 
+<h1>Final Project Statement:</h1>
 
-<b><h1>DESCRIPITION:</h1><b>
+Then finally everyone can afford this service which is less purchasing media and which has low latency and this service can use by multiple users and by using our events you have many benifits of our services and we will provide services is for wedding,babyshower,birthday, mehandi,decorattion and jewellary. At this Events, we understand the significance of every occasion and strive to turn your dreams into reality. With a team of passionate event planners, we ensure that your events are not just special but extraordinary. Whether it's a joyous marriage celebration, a heartwarming baby shower, or a milestone birthday, we are here to make every moment count. Let us be a part of your journey, and together, we'll craft memories that last a lifetime.
 
 Here I am attaching the final working website's screenshot for the reference.
 
@@ -123,6 +134,5 @@ Here I am attaching the final working website's screenshot for the reference.
 ![Screenshot 2024-02-10 162042](https://github.com/PendemVenkateswarlu/Event-Plannings-And-Services/assets/158997573/4add4017-5319-40e7-8025-4ff932281422)
 
 
-<h1>Final Project Statement:</h1>
+![Contactus](https://github.com/PendemVenkateswarlu/Event-Plannings-And-Services/assets/158996841/0a57b247-7536-4074-80b8-e6d2bd493555)
 
-Then finally everyone can afford this service which is less purchasing media and which has low latency and this service can use by multiple users and by using our events you have many benifits of our services and we will provide services is for wedding,babyshower,birthday, mehandi,decorattion and jewellary. At this Events, we understand the significance of every occasion and strive to turn your dreams into reality. With a team of passionate event planners, we ensure that your events are not just special but extraordinary. Whether it's a joyous marriage celebration, a heartwarming baby shower, or a milestone birthday, we are here to make every moment count. Let us be a part of your journey, and together, we'll craft memories that last a lifetime.

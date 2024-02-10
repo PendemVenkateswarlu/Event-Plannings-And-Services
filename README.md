@@ -1,10 +1,10 @@
-# Event-Plannings-And-Services
+# Events-Plannings-And-Services
 
 <h1>DREAM DESTINATION:</h1>
 let's celebrate with us.
 <h1>PROJECT DETAILS:</h1>
 1.	Project Demo URL: https://planning123.z13.web.core.windows.net/ <br>
-2.	Demo Video URL: <br>
+2.	Demo Video URL: https://youtu.be/rCyUHB6j39Y <br>
 3.	GitHub Repository URL : https://github.com/PendemVenkateswarlu/Event-Plannings-And-Services/tree/main <br>
 4.	Industry : life style<br>
 

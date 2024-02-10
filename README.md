@@ -37,8 +37,13 @@ Most importantly, birthdays call for celebration. It is one day where we get to 
 
 
 ![SUSHMA1](https://github.com/PendemVenkateswarlu/Event-Plannings-And-Services/assets/158997573/de595b2a-6578-498c-9a73-07655bee5d9f)
-<b>Azure Blob Storage:-</b>
-Azure Blob Storage is Microsoft's scalable object storage solution in the Azure cloud. It enables secure and cost-effective storage of unstructured data, such as documents and images. Offering seamless integration with applications, it supports data of any size and optimizes accessibility through a globally distributed network. 
+<b><h>AZURE BLOB STORAGE:</h></b>
+Azure Blob Storage is Microsoft's scalable object storage solution in the Azure cloud. It enables secure and cost-effective storage of unstructured data, such as documents and images. Offering seamless integration with applications, it supports data of any size and optimizes accessibility through a globally distributed network.
+
+
+![image](https://github.com/PendemVenkateswarlu/Event-Plannings-And-Services/assets/158997573/75021d8d-799b-4bff-8ca2-cc7889d9e335)
+
+
 
 <b>Azure Storage Account:-</b> Azure Storage Account is a foundational component in Microsoft Azure, providing secure and scalable cloud storage. It supports various storage services like Blob, File, Queue, and Table, accommodating diverse data types. With features such as redundancy options and access controls, it ensures reliable and efficient data management.
  
@@ -46,9 +51,7 @@ Azure Blob Storage is Microsoft's scalable object storage solution in the Azure 
 
 <h1>Azure AI Service</h1>
 <b>Azure Chatbot :-</b> The Azure AI Language Chatbot is a cutting-edge conversational agent powered by Microsoft's Azure platform. Leveraging advanced natural language processing capabilities, it facilitates dynamic and context-aware interactions. This intelligent chatbot employs machine learning algorithms to comprehend user queries, providing personalized responses and assistance across diverse domains. Seamlessly integrating with Azure services, it ensures scalability and reliability.
-<h1>Screenshots:-![SUSHMA1](https://github.com/PendemVenkateswarlu/Event-Plannings-And-Services/assets/158997573/de595b2a-6578-498c-9a73-07655bee5d9f)</h1>
 
-![SUSHMA1](https://github.com/PendemVenkateswarlu/Event-Plannings-And-Services/assets/158997573/de595b2a-6578-498c-9a73-07655bee5d9f)
 
 
 

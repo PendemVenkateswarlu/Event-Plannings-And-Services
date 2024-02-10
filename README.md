@@ -34,10 +34,6 @@ After that, birthdays are also an eye-opener for many as they feel gratitude. Wh
 Most importantly, birthdays call for celebration. It is one day where we get to see all our loved ones in one place. No one can make an excuse and you get to spend time with everyone you love under one roof, it is nothing sort of magical.
 
 <h1>AZURE CORE SERVICES:</h1>
-![SUSHMA1](https://github.com/PendemVenkateswarlu/Event-Plannings-And-Services/assets/158997573/de595b2a-6578-498c-9a73-07655bee5d9f)
-
-
-
 
 <b>Azure Blob Storage:-</b>
 Azure Blob Storage is Microsoft's scalable object storage solution in the Azure cloud. It enables secure and cost-effective storage of unstructured data, such as documents and images. Offering seamless integration with applications, it supports data of any size and optimizes accessibility through a globally distributed network. 
@@ -48,7 +44,7 @@ Azure Blob Storage is Microsoft's scalable object storage solution in the Azure 
 
 <h1>Azure AI Service</h1>
 <b>Azure Chatbot :-</b> The Azure AI Language Chatbot is a cutting-edge conversational agent powered by Microsoft's Azure platform. Leveraging advanced natural language processing capabilities, it facilitates dynamic and context-aware interactions. This intelligent chatbot employs machine learning algorithms to comprehend user queries, providing personalized responses and assistance across diverse domains. Seamlessly integrating with Azure services, it ensures scalability and reliability.
-<h1>Screenshots:-</h1>
+<h1>Screenshots:-![SUSHMA1](https://github.com/PendemVenkateswarlu/Event-Plannings-And-Services/assets/158997573/de595b2a-6578-498c-9a73-07655bee5d9f)</h1>
 
 
 

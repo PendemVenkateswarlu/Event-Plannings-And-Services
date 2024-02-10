@@ -1,0 +1,298 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Event Manager</title>
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+<link rel="stylesheet" href="style.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+<style>
+  /* Default styles */
+
+  /* Add your existing styles here */
+  
+  /* Media query for small devices */
+  @media (max-width: 768px) {
+      body {
+          font-size: 14px; /* Adjust font size for smaller screens */
+      }
+  
+      .hero-section {
+          background-size: cover;
+          padding: 50px 20px;
+      }
+  
+      .navbar {
+          padding: 10px;
+      }
+  
+      .navbar-brand img {
+          width: 200px; /* Adjust logo width for smaller screens */
+      }
+  
+      .navbar-toggler {
+          padding: 0.25rem 0.75rem;
+          font-size: 0.875rem;
+      }
+  
+      .navbar-nav {
+          flex-direction: column;
+          text-align: center;
+      }
+  
+      .navbar-nav .nav-item {
+          margin-bottom: 10px;
+      }
+  
+      .eventservices h2 {
+          font-size: 24px; /* Adjust heading size for smaller screens */
+      }
+  
+      /* Add more specific styles for small screens if needed */
+  }
+
+  /* Add margin and border for the whole page */
+  html, body {
+      margin: 20px; /* Adjust margin as needed */
+      border: 1px solid #ccc; /* Add border */
+  }
+
+  /* Reset some default margin and padding */
+  body,
+  h1,
+  h2,
+  h3,
+  p {
+      margin: 0;
+      padding: 0;
+  }
+
+  /* Default styles for the body */
+  body {
+      font-family: 'Arial', sans-serif;
+  }
+
+  /* Center text in the hero section */
+  .hero-section {
+      text-align: center;
+      padding: 50px 20px;
+  }
+
+  /* Navbar styles */
+  .navbar {
+      padding: 10px;
+  }
+
+  .navbar-brand img {
+      width: 200px; /* Adjust logo width */
+  }
+
+  .navbar-toggler {
+      padding: 0.25rem 0.75rem;
+      font-size: 0.875rem;
+  }
+
+  .navbar-nav {
+      flex-direction: column;
+      text-align: center;
+  }
+
+  .navbar-nav .nav-item {
+      margin-bottom: 10px;
+  }
+
+  /* Center the heading in the event services section */
+  .eventservices .container {
+      text-align: center;
+      padding-top: 50px;
+      padding-bottom: 50px;
+  }
+
+  /* Center text in the People With My Events section */
+  .background .container {
+      text-align: center;
+      padding-top: 0px;
+      padding-bottom: 50px;
+  }
+
+  /* Center text in the About Us section */
+  .container.text-dark {
+      text-align: center;
+      padding-top: 50px;
+      padding-bottom: 50px;
+  }
+
+  /* Center text in the Jumbotron section */
+  .jumbotron.text-center {
+      padding: 50px;
+  }
+
+  /* Add these styles for ul tags */
+
+  /* Style for the main navigation links */
+  .navbar-nav ul {
+      list-style: none;
+      padding: 0;
+  }
+
+  .navbar-nav li {
+      margin-bottom: 10px;
+  }
+
+  /* Style for the lists in the event services section */
+  .eventservices ul {
+      list-style: none;
+      padding: 0;
+  }
+
+  .eventservices li {
+      margin-bottom: 10px;
+  }
+
+  /* Style for the lists in the People With My Events section */
+  .background ul {
+      list-style: none;
+      padding: 0;
+  }
+
+  .background li {
+      margin-bottom: 10px;
+  }
+
+  /* Style for the lists in the About Us section */
+  .container.text-dark ul {
+      list-style: none;
+      padding: 0;
+  }
+
+  .container.text-dark li {
+      margin-bottom: 10px;
+  }
+</style>
+</head>
+
+
+    
+<nav class="navbar bg-body-tertiary">
+  <div class="container-fluid">
+    
+  </div>
+</nav>
+<nav class="navbar navbar-expand-lg bg-body-tertiary fixed-top">
+    <div class="container-fluid">
+        <a class="navbar-brand" href="#"margin-right>
+          <img src="DESTDlogo.jpg" alt="Logo" width="300" height="50" class="d-inline-block align-text-top"align=right margin-right>
+
+          </a>
+      
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div  class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav d-flex jusify-end">
+            <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="index.html"><b>Home</b> </a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="About.html"><b>About</b></a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="Services.html"><b>Services</b></a>
+                  </li>
+              <li class="nav-item">
+                <a class="nav-link" href="Gallery.html"><b>Gallery</b></a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="Contactus.html"><b>Contact</b></a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link " href="Vouchers.html"><b>Vouchers</b></a>
+              </li>
+              <li class="nav-item ">
+                <a class="nav-link " href="Chatbot.html"><b>Chatbot</b></a>
+              </li>
+        </ul>
+      </div>
+    </div>
+</nav>
+<head>
+  <head>
+    <link rel="stylesheet" href="services.css">
+    <div class="bg-container2">
+      <h1 style="color: black;">My Services</h1>
+      <h3 style="color: black;"><i>Here we help with our services to your destination...</i></h3>
+      <h3 style="color: black;"><i>Select your event we will plan your event.....
+        Any place ....Any event .......let's celebrate......</i></h3>
+    <h2 style="text-align:center"></h2>
+    <div class="container1"></div>
+    <div class="row">
+      <div class="column">
+        <div class="card">
+          <img src="ServiceWedding.jpg" class="card-img-top" height="500">
+          <div class="card-body">
+              <h2 class="card-title">Wedding</h2>
+              <h5 class="card-text">A wedding is a celebration or ceremony of marriage. Besides being a formal way to mark the union of two people, weddings can be a lot of fun too.
+              </h5>
+          </div>
+        </div>
+      </div>
+      <div class="column">
+       
+        
+
+
+
+
+        <div class="card">
+          <img src="ServiceBabyShower.jpg" class="card-img-top" height="500">
+          <div class="card-body">
+              <h2 class="card-title">Baby Shower</h2>
+              <h5 class="card-text">A baby shower is a party centered on gift-giving to celebrate the delivery or expected birth of a child.Let's welcome them .</h5>
+          </div>
+        </div>
+      </div>
+      <div class="column">
+        <div class="card">
+          <img src="ServiceBrtday.jpg" class="card-img-top" height="500">
+          <div class="card-body">
+              <h2 class="card-title">Birthday</h2>
+              <h5 class="card-text">No matter who you're celebrating your partner, best friend, sister, brother, mom, dad, any one let's make them happy to celebrate. 
+              </h5>
+          </div>
+        </div>
+      </div>
+      <div class="column">
+        <div class="card">
+          <img src="ServiceJewellery.jpg" class="card-img-top" height="477">
+          <div class="card-body">
+              <h2 class="card-title">Jewellery</h2>
+              <h5 class="card-text">The jewellery we made that has specially that are hand crafted and had multiple designs and offers and Make sure that don't miss this opportunity to celebrate.</h5>
+          </div>
+        </div>
+      </div>
+      <div class="column">
+        <div class="card">
+          <img src="ServiceMehandi.jpg" class="card-img-top" height="500">
+          <div class="card-body">
+              <h2 class="card-title">Mehendi</h2>
+              <h5 class="card-text">Mehndi is a popular form of body art in South Asia and resembles similar traditions of henna as body art.There are many different Mehendi.</h5>
+          </div>
+        </div>
+      </div>
+      <div class="column">
+        <div class="card">
+          <img src="ServiceDEcoration.jpg" class="card-img-top" height="500">
+          <div class="card-body">
+              <h2 class="card-title">Decoration</h2>
+              <h5 class="card-text">Events made extraordinary with this decoration.our decoration which makes very big impact to your event let's celebrate with us.</h5>
+          </div>
+        </div>
+      </div>
+    </div>
+    </div>
+    </div>
+
+    </head>

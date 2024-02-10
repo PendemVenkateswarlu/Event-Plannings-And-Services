@@ -1,0 +1,312 @@
+.services{
+    display: flex;
+    justify-content: space-around;
+    
+}
+#card{
+    width:82vw ;
+    height: 52vh;
+    font-size: large;
+    font-weight: 800;
+    padding-bottom: 2rem;
+    border-radius: 20px;
+}
+#marry{
+    font-size: xx-large;
+color: darkred;
+}
+.services ul li{
+    font-size: 20px;
+    color: rgb(196, 122, 11);
+}
+ .navbar-nav{
+    margin-left: 65%;
+ }
+#img{
+    margin-left: 8%;
+    height:100;
+}
+#contact{
+    text-align: center;
+    color: blue;
+    text-decoration: underline;
+    font-size: large;
+    font-size: 30px;
+    font-weight: 100;
+    margin-top: 20px;
+}
+#team div img{
+    width:200px;
+    border-radius: 30%;
+
+}
+#team{
+    display: flex;
+}
+#team div{
+    font-size: 20px;
+    font-weight: 500;
+    text-align: center;
+    color: blueviolet;
+}
+#para{
+    text-align: center;
+    font-size: 25px;
+}
+#form{
+    width: 43vw;
+    height: 53vh;
+    background-color:transparent;
+    border: 2px solid #000;
+    border-radius: 20px;
+    box-shadow: 6px 8px 7px #4b4a4a;
+    padding: 1rem;
+    
+}
+#contactus{
+    color: #000;
+    
+    
+}
+#forn div{
+    margin-top: 5%;
+}
+#navbarNav{
+    margin-right: 15%;
+}
+#navbarNav ul li:hover{
+    color:blue;
+}
+#name{
+    margin-top: 20px;
+    padding:8px 48px;
+}
+
+#area{
+    position: absolute;
+    top: 55%;
+}
+input{
+   border-radius: 20px;
+   padding-bottom: 1rem;
+   padding-left: 6rem;
+}
+.body{
+    display: flex;
+    justify-content: start;
+    align-items: center;
+} 
+.form-label{
+    font-size: 20px;
+    font-weight: 600;
+}
+#Submit{
+    padding: 8px 32px;
+    border-radius: 20px;
+    background-color: rgb(47, 47, 138);
+    color:#fff;
+    font-size: 16px;
+    margin-left: 120%;
+    margin-top: 5%;
+}
+#contacts{
+   
+    background-size: cover;
+}
+#about{
+    text-align: center;
+    font-size: 25px;
+    color:brown;
+    text-decoration:underline;
+}
+#mobile{
+    margin-top: 4%;
+}
+#desc{
+    width:60vw;
+    font-size: 18px;
+    text-align: center;
+    margin-left: 20%;
+}
+#mail{
+    border:2px solid black;
+    height: 40px;
+    background-color: #000;
+}
+#mail span{
+    color: #fff;
+    padding-left: 30%;
+    text-align: center;
+}
+#mail span small{
+    color: rgb(6, 203, 252);
+}
+#mail span a{
+    font-size: 20px;
+    text-decoration: none;
+}
+.text-center{
+    font: display 40px;
+    color: #b72a59;
+   
+    background-color:transparent;
+}
+.hero-section {
+    background-size: cover;
+    background-position: center;
+    height: 100vh; 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    text-align:justify;
+
+        background-image: url("BackgroundHome.jpg");
+        }
+    #about{
+        margin-top: 20px;
+        padding:2%;
+    
+    }
+    .background{
+        background-image: url("Team6Back.jpg");
+        background-size: cover;
+        color: black;
+        height:60%;
+        width:100%;
+    }
+    body {
+        margin: 0;
+        font-family: var(--bs-body-font-family);
+        font-size: var(--bs-body-font-size);
+        font-weight: var(--bs-body-font-weight);
+        line-height: var(--bs-body-line-height);
+        color: var(--bs-body-color);
+        text-align: var(--bs-body-text-align);
+        background-color: white;
+        -webkit-text-size-adjust: 100%;
+        -webkit-tap-highlight-color: transparent;
+    }
+
+    #eventservices{
+        background-image: url("3NDSSBg.jpg");
+        background-color:blue;
+        width:110%;
+    }
+    #footer{
+        display: flex;
+        justify-content: space-around;
+        background-color: #8c3451;;
+        color: whitesmoke;
+        height:30vh;
+    }
+    #footers{
+        text-align: center;
+        color: white;
+        display: flex;
+        justify-content: space-around;
+        height:5vh;
+        background-color:black;
+    }
+    #footer ul li{
+        color:white;
+        font-size: 15px;
+    }
+    #footer ul li:hover{
+        color:white;
+    }
+    #footer ul li:nth-child(1){
+        font-size: 20px;
+        color:#b72a59;
+        margin-bottom: 30px;
+        list-style: none;
+        text-decoration: underline;
+        text-decoration-color: white;
+        font-weight: 800;
+        margin-top: 20px;
+        text-align: center;
+    }
+    .lead{
+        color: #000;
+    }
+
+    .containerabout{
+        width:100%;
+        height: auto;
+        background: #007bbf;
+        display: flex;
+        flex-direction:row;
+        justify-content: space-around;
+    }
+
+
+
+
+
+
+
+    .cid-u2m2v4Sfca {
+        padding-top: 6rem;
+        padding-bottom: 6rem;
+        background-color: #ffffff;
+      }
+      .cid-u2m2v4Sfca .mbr-fallback-image.disabled {
+        display: none;
+      }
+      .cid-u2m2v4Sfca .mbr-fallback-image {
+        display: block;
+        background-size: cover;
+        background-position: center center;
+        width: 100%;
+        height: 100%;
+        position: absolute;
+        top: 0;
+      }
+      .cid-u2m2v4Sfca .title .num {
+        width: 100%;
+        display: block;
+      }
+      .cid-u2m2v4Sfca .title .card-title {
+        z-index: 1;
+      }
+      .cid-u2m2v4Sfca .num {
+        color: var(--primary-color, #9fe870);
+        text-align: center;
+      }
+      .cid-u2m2v4Sfca .item-mb {
+        margin-bottom: 2rem;
+      }
+      @media (max-width: 767px) {
+        .cid-u2m2v4Sfca .item-mb {
+          margin-bottom: 1rem;
+        }
+      }
+      @media (max-width: 767px) {
+        .cid-u2m2v4Sfca * {
+          text-align: center !important;
+        }
+        .cid-u2m2v4Sfca .content-column {
+          margin-bottom: 2rem;
+        }
+      }
+      .cid-u2m2v4Sfca .content-head {
+        max-width: 800px;
+      }
+      .cid-u2m2v4Sfca .card-text {
+        text-align:start;
+      }
+      .cid-u2m2v4Sfca .card-title,
+      .cid-u2m2v4Sfca .card-img {
+         text-align:start;
+      }
+      #email{
+        padding:8px 48px;
+      }
+
+      #password{
+        padding:8px 48px;
+      }
+      #message{
+        padding:8px 48px;
+      }
+      

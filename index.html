@@ -1,0 +1,452 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Event Manager</title>
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer"/>
+    
+    <style>
+        /* Default styles */
+
+        /* Add your existing styles here */
+        
+        /* Media query for small devices */
+        @media (max-width: 768px) {
+            body {
+                font-size: 14px; /* Adjust font size for smaller screens */
+            }
+        
+            .hero-section {
+                background-size: cover;
+                padding: 50px 20px;
+            }
+        
+            .navbar {
+                padding: 10px;
+            }
+        
+            .navbar-brand img {
+                width: 200px; /* Adjust logo width for smaller screens */
+            }
+        
+            .navbar-toggler {
+                padding: 0.25rem 0.75rem;
+                font-size: 0.875rem;
+            }
+        
+            .navbar-nav {
+                flex-direction: column;
+                text-align: center;
+            }
+        
+            .navbar-nav .nav-item {
+                margin-bottom: 10px;
+            }
+        
+            .eventservices h2 {
+                font-size: 24px; /* Adjust heading size for smaller screens */
+            }
+        
+            /* Add more specific styles for small screens if needed */
+        }
+
+        /* Add margin and border for the whole page */
+        html, body {
+            margin: 20px; /* Adjust margin as needed */
+            border: 1px solid #ccc; /* Add border */
+        }
+
+        /* Reset some default margin and padding */
+        body,
+        h1,
+        h2,
+        h3,
+        p {
+            margin: 0;
+            padding: 0;
+        }
+
+        /* Default styles for the body */
+        body {
+            font-family: 'Arial', sans-serif;
+        }
+
+        /* Center text in the hero section */
+        .hero-section {
+            text-align: center;
+            padding: 50px 20px;
+        }
+
+        /* Navbar styles */
+        .navbar {
+            padding: 10px;
+        }
+
+        .navbar-brand img {
+            width: 200px; /* Adjust logo width */
+        }
+
+        .navbar-toggler {
+            padding: 0.25rem 0.75rem;
+            font-size: 0.875rem;
+        }
+
+        .navbar-nav {
+            flex-direction: column;
+            text-align: center;
+        }
+
+        .navbar-nav .nav-item {
+            margin-bottom: 10px;
+        }
+
+        /* Center the heading in the event services section */
+        .eventservices .container {
+            text-align: center;
+            padding-top: 50px;
+            padding-bottom: 50px;
+        }
+
+        /* Center text in the People With My Events section */
+        .background .container {
+            text-align: center;
+            padding-top: 0px;
+            padding-bottom: 50px;
+        }
+
+        /* Center text in the About Us section */
+        .container.text-dark {
+            text-align: center;
+            padding-top: 50px;
+            padding-bottom: 50px;
+        }
+
+        /* Center text in the Jumbotron section */
+        .jumbotron.text-center {
+            padding: 50px;
+        }
+
+        /* Add these styles for ul tags */
+
+        /* Style for the main navigation links */
+        .navbar-nav ul {
+            list-style: none;
+            padding: 0;
+        }
+
+        .navbar-nav li {
+            margin-bottom: 10px;
+        }
+
+        /* Style for the lists in the event services section */
+        .eventservices ul {
+            list-style: none;
+            padding: 0;
+        }
+
+        .eventservices li {
+            margin-bottom: 10px;
+        }
+
+        /* Style for the lists in the People With My Events section */
+        .background ul {
+            list-style: none;
+            padding: 0;
+        }
+
+        .background li {
+            margin-bottom: 10px;
+        }
+
+        /* Style for the lists in the About Us section */
+        .container.text-dark ul {
+            list-style: none;
+            padding: 0;
+        }
+
+        .container.text-dark li {
+            margin-bottom: 10px;
+        }
+    </style>
+
+</head>
+
+<body>
+  <div id="mobile">
+
+  </div>
+  <div class="hero-section" >
+      <div class="container text-center">
+          <h1 class="text-white">EVENT PLANINGS AND SERVICES</h1>
+          <p style="color: white;">Dream Destination</p>
+          <a href="#eventservices" class="btn btn-primary">Explore Now</a>
+      </div>
+  </div>
+  
+<nav class="navbar bg-body-tertiary">
+<div class="container-fluid">
+  
+</div>
+</nav>
+<nav class="navbar navbar-expand-lg bg-body-tertiary fixed-top">
+  <div class="container-fluid">
+      <a class="navbar-brand" href="#">
+          <img src="DESTDlogo.jpg" alt="Logo" width="300" height="50">
+
+        </a>
+    
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div  class="collapse navbar-collapse ml-5 " id="navbarNav">
+      <ul class="navbar-nav d-flex justify-content-end ">
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="index.html"><b>Home</b> </a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="About.html"><b>About</b></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="Services.html"><b>Services</b></a>
+            </li>
+        <li class="nav-item">
+          <a class="nav-link" href="Gallery.html"><b>Gallery</b></a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="Contactus.html"><b>Contact</b></a>
+        </li>
+        <li class="nav-item ">
+          <a class="nav-link " href="Vouchers.html"><b>Vouchers</b></a>
+        </li>
+        <li class="nav-item ">
+          <a class="nav-link " href="Chatbot.html"><b>Chatbot</b></a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<div class="eventservices">
+<div class="container mt-5" id="eventservices">
+  <h2 style="color: black; text-align: center;">Our Event Services</h2>
+
+  <ul type="bullet">
+    <li>
+      <h5 style="color: White;">Welcome to My Events, your one-stop solution for creating memorable and special moments. Explore our services tailored for different occasions.</h5>
+    </li>
+  </ul>
+  <div class="card mb-3"id="card" >
+      <div class="row g-0">
+        <div class="col-md-4">
+          <img src="MarriageIMG.jpg" height="317" width="370" style="border-radius: 20px;" >
+        </div>
+        <div class="col-md-8">
+          <div class="card-body">
+            <h5 class="card-title"id="marry">Wedding</h5>
+            <h5><b><i>Finding the onethe perfect wedding dressis where it all starts! We're sharing everything you need to know about wedding dress shopping and choosing the look that best suits your style.
+              The One just works you can see yourself in it.You can see yourself walking down the aisle wearing it. It suits your personality, your wedding style and your groom potentially in ways you didn’t expect.It fits into your vision.This is a huge indicator as you’ll start to talk about the finer details of the day itself, for example the wedding venue, your hair/make-up, your bride bouquet, whether you’ll be able to comfortably sit in the gown, whether it sits right with decor details.You’re essentially envisaging yourself in it.</i></b></h5>
+           
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+    <div class="card mb-3"id="card" >
+      <div class="row g-0">
+       
+        <div class="col-md-8 mt-3">
+          <div class="card-body">
+            <h5 class="card-title"id="marry">Baby Shower</h5>
+            <h5><b><i>A baby shower is an exciting event, especially for first-time moms. Besides celebrating your pregnancy with your loved ones, it is a great opportunity to show off your baby bump in the most flattering and stylish way possible.
+              Plan your dresses for the baby shower as you plan the outfit for any other occasion!
+            
+            Although there is no hard rule as to what a pregnant woman should wear to this celebratory occasion, it is highly recommended you go with figure-flattering and stylish baby shower dresses that look classier and more elegant than any other outfit.</i></b></h5>
+           
+          </div>
+        </div>
+        <div class="col-md-3">
+          <img src="BBabyShower1.jpg" width="370" height="316" style="border-radius: 20px;">
+        </div>
+      </div>
+    </div>
+    <div class="card mb-3"id="card" >
+      <div class="row g-0">
+        <div class="col-md-4">
+          <img src="BirtdaYCard2.jpg" height="316" width="370" style="border-radius: 20px;">
+        </div>
+        <div class="col-md-8">
+          <div class="card-body">
+            <h5 class="card-title"id="marry">Birthday</h5>
+          <h5><b><i>Every birthday is a milestone, a celebration of you, and an occasion to feel special. As the clock strikes twelve, signaling the onset of your big day, your excitement knows no bounds. You are the queen of this day, and what better way to adorn yourself than with the most exquisite and specially curated collection of birthday dresses for everyone.....their is no age for dressing........
+          </i></b></h5>
+           
+          </div>
+        </div>
+      </div>
+    </div>
+  <div class="row">
+      <div class="col-md-4 mb-4">
+          <div class="card">
+              <img src="123..jpg" class="card-img-top" alt="Marriage"height="500" class="card">
+              <div class="card-body">
+                  <h5 class="card-title">Marriage Events</h5>
+                  <p class="card-text">Celebrate the union of love with our expert event planning services. We make your special day truly magical.</p>
+                
+              </div>
+          </div>
+      </div>
+
+      <div class="col-md-4 mb-4">
+          <div class="card">
+            <img src="BBBirtDaY12.jpg" class="card-img-top" alt="Birthday"height="500">
+            <div class="card-body">
+                <h5 class="card-title">Birthday Celebrations</h5>
+                <p class="card-text">Make birthdays unforgettable with our creative event planning. From kids' parties to milestone birthdays, we've got you covered.</p>
+            </div>
+          </div>
+      </div>
+
+      <div class="col-md-4 mb-4">
+          <div class="card">
+            <img src="shower.jpg" class="card-img-top" alt="Baby Shower"height="475">
+            <div class="card-body">
+                <h5 class="card-title">Baby Shower</h5>
+                <p class="card-text">Welcome the newest member of your family with a joyous baby shower. Our team ensures every detail is perfect for this special occasion.</p>
+            </div>
+          </div>
+      </div>
+  </div>
+</div>
+</div>
+
+<body>
+  <!-- Couples With Section -->
+  <div class="background">
+    <div class="container mt-5">
+        <h2 class="text-center p-3">People With My Events</h2>
+        <h4><i>Planning a special event can be both exciting and overwhelming. At My Events, we're here to guide you through every step of the process, ensuring your celebration is nothing short of extraordinary. Here's a helpful checklist for couples embarking on their event planning journey:</i></h4>
+    <div class="services ">
+        <ul>
+          <calibri"> <li>creating a buddget</li>
+           <li>choosing cloths</li>
+           <li>Booking a venue</li>
+           <li>Jewellery</li></calibri>
+        </ul>
+        
+        </ul>
+        <ul>
+            <li >Photograpy</li>
+            <li>Guests & nvitations</li>
+            <li>Gift Registry</li>
+            <li>Day Of Coordination</li>
+         </ul>
+         <ul>
+            <li> Rehearsal Dinner</li>
+            <li>Venue Decor</li>
+            <li>Transportation</li>
+            <li>Videography</li>
+         </ul>
+    </div>
+        <p>At My Events, we're passionate about turning your dreams into reality. Let us be your dedicated partner in creating memories that last a lifetime.</p>
+    </div>
+       </div>
+<!-- About Us Section -->
+
+<div class="container mt-5 text-center text-dark">
+  <h2 style=" color: #b72a59;">About</h2>
+  <p>Welcome to My Events, your dedicated partner in creating unforgettable moments. At My Events, we understand the significance of every occasion and strive to turn your dreams into reality. With a team of passionate event planners, we ensure that your events are not just special but extraordinary. Whether it's a joyous marriage celebration, a heartwarming baby shower, or a milestone birthday, we are here to make every moment count. Let us be a part of your journey, and together, we'll craft memories that last a lifetime.</p>
+</div>
+
+
+
+  <div class="jumbotron text-center">
+      <h1 class="display-4">Discover the Elegance of Our Jewelry Collection</h1>
+      <p class="lead">Explore our stunning range of handcrafted jewelry, designed to add a touch of glamour to every
+          occasion.</p>
+      <a class="btn btn-danger btn-lg" href="#featured" role="button">View Featured Jewelry</a>
+  </div>
+
+  <div id="featured" class="container featured-jewelry">
+      <div class="row">
+          <div class="col-md-4 mb-4">
+              <div class="card">
+                  <img src="NACKLACE.jpg" class="card-img-top" alt="Elegant Necklace">
+                  <div class="card-body">
+                      <h5 class="card-title">Elegant Necklace</h5>
+                      <p class="card-text jewelry-description">Adorn yourself with this exquisite necklace,
+                          meticulously crafted to enhance your beauty on special occasions.</p>
+                      
+                  </div>
+              </div>
+          </div>
+
+          <div class="col-md-4 mb-4">
+              <div class="card">
+                  <img src="rings.jpg" class="card-img-top" alt="Diamond Earrings">
+                  <div class="card-body">
+                      <h5 class="card-title">Diamond Earrings</h5>
+                      <p class="card-text jewelry-description">Make a statement with these stunning diamond
+                          earrings, perfect for adding a touch of glamour to any ensemble.</p>
+                  
+                  </div>
+              </div>
+          </div>
+
+          <div class="col-md-4 mb-4">
+              <div class="card">
+                  <img src="JEWWLL.jpg" class="card-img-top" alt="Sapphire Bracelet" height="354">
+                  <div class="card-body">
+                      <h5 class="card-title">Diamond handcrafted work</h5>
+                      <p class="card-text jewelry-description">Enhance your beauty with the brilliance of handcrafted.
+                          This diamonds is a timeless addition to your jewelry collection.</p>
+                     
+                  </div>
+              </div>
+          </div>
+      </div>
+  </div>
+</body>
+
+
+<footer>
+  <div id="footer">
+      <ul style="color: white;">
+          <li style="color: white;"><h3>Useful Links</h3></li>
+          <li>Terms of Use</li>
+          <li>Rating</li>
+          <li>feedback</li>
+          <li>Rewards</li>
+      </ul>
+      <ul style="color: white;">
+          <li style="color: white;"><h3>Customer policies</h3></li>
+          <li>Book service</li>
+          <li>Services</li>
+          <li>T&C</li>
+          <li>FAC</li>
+      </ul>
+      <ul style="color: white;">
+          <li style="color: white;"><h3>Contact Us</h3></li>
+          <li><a href="https://www.google.co.in/maps/place/Balanagar,+Hyderabad,+Telangana/@17.4758352,78.4292443,14z/data=!3m1!4b1!4m6!3m5!1s0x3bcb90f66963b153:0x75e59146333c941c!8m2!3d17.4813993!4d78.4489935!16s%2Fm%2F02q_yj2?entry=ttu"><i class="fa-solid fa-location-dot"></i>&nbsp;Location</a></li>
+          <li><i class="fa-solid fa-phone-volume"></i>&nbsp;+91 9390492185</li>
+          <li><a href="https://mail.google.com/mail/u/0/?fs=1&tf=cm&source=mailto&to=eventsplanningsandservices@gmail.com"><i class="fa-solid fa-envelope"></i>&nbsp;eventsplanningsandservices@gmail.com</a></li>
+          <li><i class="fa-brands fa-facebook"></i>&nbsp;&nbsp;&nbsp;<i class="fa-brands fa-instagram"></i>&nbsp;&nbsp;&nbsp;<i class="fa-brands fa-square-whatsapp"></i>&nbsp;&nbsp;&nbsp;<i class="fa-brands fa-linkedin"></i></li>
+      </ul>
+  </div>
+</footer>
+<!-- Add more sections and content as needed -->
+<!-- Footer remains unchanged -->
+<footer class="bg-body-tertiary p-1 text-center">
+  <div id="footers">
+      <div class="container">
+          <p>&copy; 2024 Our Event. All rights reserved. | Designed by EVENTS PLANNINGS AND SERVICES TEAM </p>
+      </div>
+  </div>
+</footer>
+</body>
+</html>

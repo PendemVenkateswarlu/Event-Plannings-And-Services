@@ -1,0 +1,410 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Event Manager</title>
+    
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+<link rel="stylesheet" href="style.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+<style>
+  /* Default styles */
+
+  /* Add your existing styles here */
+  
+  /* Media query for small devices */
+  @media (max-width: 768px) {
+      body {
+          font-size: 14px; /* Adjust font size for smaller screens */
+      }
+  
+      .hero-section {
+          background-size: cover;
+          padding: 50px 20px;
+      }
+  
+      .navbar {
+          padding: 10px;
+      }
+  
+      .navbar-brand img {
+          width: 200px; /* Adjust logo width for smaller screens */
+      }
+  
+      .navbar-toggler {
+          padding: 0.25rem 0.75rem;
+          font-size: 0.875rem;
+      }
+  
+      .navbar-nav {
+          flex-direction: column;
+          text-align: center;
+      }
+  
+      .navbar-nav .nav-item {
+          margin-bottom: 10px;
+      }
+  
+      .eventservices h2 {
+          font-size: 24px; /* Adjust heading size for smaller screens */
+      }
+  
+      /* Add more specific styles for small screens if needed */
+  }
+
+  /* Add margin and border for the whole page */
+  html, body {
+      margin: 20px; /* Adjust margin as needed */
+      border: 1px solid #ccc; /* Add border */
+  }
+
+  /* Reset some default margin and padding */
+  body,
+  h1,
+  h2,
+  h3,
+  p {
+      margin: 0;
+      padding: 0;
+  }
+
+  /* Default styles for the body */
+  body {
+      font-family: 'Arial', sans-serif;
+  }
+
+  /* Center text in the hero section */
+  .hero-section {
+      text-align: center;
+      padding: 50px 20px;
+  }
+
+  /* Navbar styles */
+  .navbar {
+      padding: 10px;
+  }
+
+  .navbar-brand img {
+      width: 200px; /* Adjust logo width */
+  }
+
+  .navbar-toggler {
+      padding: 0.25rem 0.75rem;
+      font-size: 0.875rem;
+  }
+
+  .navbar-nav {
+      flex-direction: column;
+      text-align: center;
+  }
+
+  .navbar-nav .nav-item {
+      margin-bottom: 10px;
+  }
+
+  /* Center the heading in the event services section */
+  .eventservices .container {
+      text-align: center;
+      padding-top: 50px;
+      padding-bottom: 50px;
+  }
+
+  /* Center text in the People With My Events section */
+  .background .container {
+      text-align: center;
+      padding-top: 0px;
+      padding-bottom: 50px;
+  }
+
+  /* Center text in the About Us section */
+  .container.text-dark {
+      text-align: center;
+      padding-top: 50px;
+      padding-bottom: 50px;
+  }
+
+  /* Center text in the Jumbotron section */
+  .jumbotron.text-center {
+      padding: 50px;
+  }
+
+  /* Add these styles for ul tags */
+
+  /* Style for the main navigation links */
+  .navbar-nav ul {
+      list-style: none;
+      padding: 0;
+  }
+
+  .navbar-nav li {
+      margin-bottom: 10px;
+  }
+
+  /* Style for the lists in the event services section */
+  .eventservices ul {
+      list-style: none;
+      padding: 0;
+  }
+
+  .eventservices li {
+      margin-bottom: 10px;
+  }
+
+  /* Style for the lists in the People With My Events section */
+  .background ul {
+      list-style: none;
+      padding: 0;
+  }
+
+  .background li {
+      margin-bottom: 10px;
+  }
+
+  /* Style for the lists in the About Us section */
+  .container.text-dark ul {
+      list-style: none;
+      padding: 0;
+  }
+
+  .container.text-dark li {
+      margin-bottom: 10px;
+  }
+</style>
+</head>
+
+<body>
+  
+
+<nav class="navbar bg-body-tertiary">
+<div class="container-fluid">
+
+</div>
+</nav>
+<nav class="navbar navbar-expand-lg bg-body-tertiary fixed-top">
+<div class="container-fluid">
+    <a class="navbar-brand" href="#"margin-right>
+      <img src="DESTDlogo.jpg" alt="Logo" width="300" height="50" class="d-inline-block align-text-top"align=right margin-right>
+
+      </a>
+  
+  <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <div  class="collapse navbar-collapse" id="navbarNav">
+    <ul class="navbar-nav d-flex jusify-end">
+      <li class="nav-item">
+        <a class="nav-link active" aria-current="page" href="index.html"><b>Home</b> </a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="About.html"><b>About</b></a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="Services.html"><b>Services</b></a>
+          </li>
+      <li class="nav-item">
+        <a class="nav-link" href="Gallery.html"><b>Gallery</b></a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="Contactus.html"><b>Contact</b></a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link " href="Vouchers.html"><b>Vouchers</b></a>
+      </li>
+      <li class="nav-item ">
+        <a class="nav-link " href="Chatbot.html"><b>Chatbot</b></a>
+      </li>
+    </ul>
+  </div>
+</div>
+</nav>
+<body>
+<div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel">
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img src="Gallery1stSLIDE.jpg" class="d-block w-100" alt="..." height="600">
+    </div>
+    <div class="carousel-item">
+      <img src="Gallery2ndSLIDE.jpg" class="d-block w-100" alt="..." height="600">
+    </div>
+    <div class="carousel-item">
+      <img src="Gallery3rdSLIDE.jpg" class="d-block w-100" alt="..." height="600">
+    </div>
+  </div>
+  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Previous</span>
+  </button>
+  <button class="carousel-control-next" type="button" color="black"  data-bs-target="#carouselExampleAutoplaying" data-bs-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="visually-hidden " >Next</span>
+  </button>
+</div>
+</body>
+
+
+<link rel="stylesheet" href="services.css">
+    <div class="bg-container1">
+      <h1 style="color: black;">Gallery Images</h1>
+
+    <div class="container1">
+    <div class="row">
+      <div class="column">
+        <div >
+          <img src="CoupleImg16.jpg" height="400" width="390" >
+        </div>
+      </div>
+      <div class="column">
+        <div>
+          <img src="CoupleImg18.jpeg" height="400" width="390" >
+        </div>
+      </div>
+      <div class="column">
+        <div >
+          <img src="CoupleImg04.jpg" height="400" width="390" > 
+        </div>
+      </div>
+    </div>
+    
+    <div class="container1">
+    <div class="row">
+      <div class="column">
+          <img src="Img42.jpg"  height="400" width="390" >
+      </div>
+      <div class="column">
+          <img src="Img28.jpeg"  height="400" width="390" >
+      </div>
+      <div class="column">
+          <img src="Img87.jpg"  height="400" width="390" >
+      </div>
+    </div>
+    </div>
+
+    <div class="container1">
+      <div class="row">
+        <div class="column">
+            <img src="COUPLE01.jpeg"  height="400" width="390" >
+        </div>
+        <div class="column">
+            <img src="Img34.jpg"  height="400" width="390" >
+        </div>
+        <div class="column">
+            <img src="decorimg1.webp"  height="400" width="390" >
+        </div>
+      </div>
+      </div>
+
+      <div class="container1">
+        <div class="row">
+          <div class="column">
+              <img src="Mehendi01.jpg"  height="480" width="390">
+          </div>
+          <div class="column">
+              <img src="KissCoupleimg.jpg"  height="480" width="390">
+          </div>
+          <div class="column">
+              <img src="Img85.jpg"  style="width:100%; height:100%;">
+          </div>
+        </div>
+        </div>
+
+        <div class="container1">
+          <div class="row">
+            <div class="column">
+                <img src="CoupleImg17.jpg"  style="width:100% ; height:100%;">
+            </div>
+            <div class="column">
+                <img src="Jewellery01.jpg"  style="width:100%; height:100%;">
+            </div>
+            <div class="column">
+                <img src="BabySHWR01.jpg"  height="514" width="390">
+            </div>
+          </div>
+          </div>
+
+          <div class="container1">
+            <div class="row">
+              <div class="column">
+                  <img src="BabySHWR03.jpg" height="514" width="390">
+              </div>
+              <div class="column">
+                  <img src="Design01.webp"  height="514" width="390">
+              </div>
+              <div class="column">
+                  <img src="CoupleImg09.jpg" height="514" width="390">
+              </div>
+            </div>
+            </div>
+
+
+            <div class="container1">
+              <div class="row">
+                <div class="column">
+                    <img src="Decorationimg03.jpg"  height="514" width="390">
+                </div>
+                <div class="column">
+                    <img src="Golder01.jpg" height="514" width="390">
+                </div>
+                <div class="column">
+                    <img src="BaySHWR02.jpg" height="514" width="390">
+                </div>
+              </div>
+              </div>
+
+
+              <div class="container1">
+                <div class="row">
+                  <div class="column">
+                      <img src="Img83.jpg" height="514" width="390">
+                  </div>
+                  <div class="column">
+                      <img src="DecorationImg02.webp" height="514" width="390">
+                  </div>
+                  <div class="column">
+                      <img src="CoupleImg01.jpg" height="514" width="390">
+                  </div>
+                </div>
+                </div>
+
+
+                <div class="container1">
+                  <div class="row">
+                    <div class="column">
+                        <img src="DecorationIMG04.jpg" style="width:100%; height:100%;">
+                    </div>
+                    <div class="column">
+                        <img src="jodi01.jpg" height="514" width="390">
+                    </div>
+                    <div class="column">
+                        <img src="JewelleryIMG27.jpg"  style="width:100%; height:100%;">
+                    </div>
+                  </div>
+                  </div>
+
+
+                  <div class="container1">
+                    <div class="row">
+                      <div class="column">
+                          <img src="CoupleImg10.jpg" height="468" width="390">
+                      </div>
+                      <div class="column">
+                          <img src="Img20.jpg" height="468" width="390">
+                      </div>
+                      <div class="column">
+                          <img src="DECr30.jpg" height="468" width="390">
+                      </div>
+                    </div>
+                    </div>
+    </div>
+  </div>
+    </head>
+
+<link rel="stylesheet" href="style.css">
+<body>
+        
+</body>
+</body>
+</body>
+</html>

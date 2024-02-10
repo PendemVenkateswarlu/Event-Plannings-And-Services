@@ -34,7 +34,8 @@ After that, birthdays are also an eye-opener for many as they feel gratitude. Wh
 Most importantly, birthdays call for celebration. It is one day where we get to see all our loved ones in one place. No one can make an excuse and you get to spend time with everyone you love under one roof, it is nothing sort of magical.
 
 <h1>AZURE CORE SERVICES:</h1>
-![sowmyaAB](https://github.com/PendemVenkateswarlu/Event-Plannings-And-Services/assets/158997573/d472a3bd-ced5-4a37-9b96-2f9dc793dbe6)
+![SUSHMA1](https://github.com/PendemVenkateswarlu/Event-Plannings-And-Services/assets/158997573/de595b2a-6578-498c-9a73-07655bee5d9f)
+
 
 
 

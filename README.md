@@ -44,13 +44,6 @@ Most importantly, birthdays call for celebration. It is one day where we get to 
 <b>Azure Chatbot :-</b> The Azure AI Language Chatbot is a cutting-edge conversational agent powered by Microsoft's Azure platform. Leveraging advanced natural language processing capabilities, it facilitates dynamic and context-aware interactions. This intelligent chatbot employs machine learning algorithms to comprehend user queries, providing personalized responses and assistance across diverse domains. Seamlessly integrating with Azure services, it ensures scalability and reliability.
 <h1>Screenshots:-</h1>
 
-![image](https://github.com/PendemVenkateswarlu/Event-Plannings-And-Services/assets/113766822/a5b65c49-943e-435d-8bd6-4dc05aaab9da)
-![image](https://github.com/PendemVenkateswarlu/Event-Plannings-And-Services/assets/113766822/f845fe42-26c7-4c40-a12a-e2b371cb8f1a)
-![image](https://github.com/PendemVenkateswarlu/Event-Plannings-And-Services/assets/113766822/00abcd38-fc45-4bc4-b1c1-a10d6d760396)
-
-![image](https://github.com/PendemVenkateswarlu/Event-Plannings-And-Services/assets/113766822/2d43a891-e972-4fd3-b05e-24acf59927a2)
-
-![image](https://github.com/PendemVenkateswarlu/Event-Plannings-And-Services/assets/113766822/ee9a79c7-fc84-4ceb-9893-1adcecfc2631)
 
 
 
